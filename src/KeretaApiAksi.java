@@ -10,9 +10,9 @@
  */
 public class KeretaApiAksi {
     public static void main(String[] args) {
-        KeretApi Eksekutif = new KeretaApi();
-        KeretApi Bisnis = new KeretaApi();
-        KeretApi Ekonomi = new KeretaApi();
+        KeretaApi Eksekutif = new KeretaApi();
+        KeretaApi Bisnis = new KeretaApi();
+        KeretaApi Ekonomi = new KeretaApi();
         
         Eksekutif.Harga = "Mahal";
         Eksekutif.Ac = "Full";
@@ -31,5 +31,9 @@ public class KeretaApiAksi {
         Ekonomi.Jml_kursi = "80";
         Ekonomi.Tv = "Tidak";
         Ekonomi.Kecepatan = "120";
+        
+        Eksekutif.cetakinfo();
+        Bisnis.cetakinfo();
+        Ekonomi.cetakinfo();
     }
 }
