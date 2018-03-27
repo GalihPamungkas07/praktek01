@@ -9,5 +9,17 @@
  * @author W7
  */
 public class KeretaApi {
+    String Harga;
+    String Ac;
+    String Jml_kursi;
+    String Tv;
+    String Kecepatan;
     
+    void cetakinfo(){
+        System.out.println("Harga :"+Harga);
+        System.out.println("Ac :"+Ac);
+        System.out.println("Jml_kursi :"+Jml_kursi);
+        System.out.println("Tv :"+Tv);
+        System.out.println("Kecepatan :"+Kecepatan);
+    }
 }
