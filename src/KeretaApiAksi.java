@@ -9,5 +9,7 @@
  * @author W7
  */
 public class KeretaApiAksi {
-    
+    public static void main(String[] args) {
+        
+    }
 }
