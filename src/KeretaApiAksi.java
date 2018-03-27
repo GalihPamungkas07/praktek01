@@ -13,5 +13,23 @@ public class KeretaApiAksi {
         KeretApi Eksekutif = new KeretaApi();
         KeretApi Bisnis = new KeretaApi();
         KeretApi Ekonomi = new KeretaApi();
+        
+        Eksekutif.Harga = "Mahal";
+        Eksekutif.Ac = "Full";
+        Eksekutif.Jml_kursi = "50";
+        Eksekutif.Tv = "Full";
+        Eksekutif.Kecepatan = "200";
+                
+        Bisnis.Harga = "Sedang";
+        Bisnis.Ac = "Sebagian";
+        Bisnis.Jml_kursi = "64";
+        Bisnis.Tv = "Sebagian";
+        Bisnis.Kecepatan = "150";
+                
+        Ekonomi.Harga = "Murah";
+        Ekonomi.Ac = "Tidak";
+        Ekonomi.Jml_kursi = "80";
+        Ekonomi.Tv = "Tidak";
+        Ekonomi.Kecepatan = "120";
     }
 }
