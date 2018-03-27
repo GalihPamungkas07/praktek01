@@ -10,6 +10,8 @@
  */
 public class KeretaApiAksi {
     public static void main(String[] args) {
-        
+        KeretApi Eksekutif = new KeretaApi();
+        KeretApi Bisnis = new KeretaApi();
+        KeretApi Ekonomi = new KeretaApi();
     }
 }
